@@ -1,0 +1,81 @@
+* { 
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
+}
+
+.outline {
+    width : 2500px;
+    height: 2000px;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.leftline {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+
+}
+
+.top {
+    margin: 10px;
+    font-size: 100px;
+}
+.mid {
+    margin: 10px;
+    font-size: 40px;
+}
+.bot {
+    margin: 15px;
+    font-size: 25px;
+}
+
+.rightline {
+     /* width : 1200px; 
+     height : 1200px;
+     border: dashed blue; */
+
+     margin: 200px; 
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.box {
+     width: 1000px;
+     height: 200px;
+     background-color: white;
+     margin: 10px;
+     box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05),
+    0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09);
+     
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+
+}
+.box_left {
+     display: flex;
+     align-items: center;
+     padding: 40px;
+
+}
+.name {
+     margin: 30px;
+     font-size: 30px;
+     font-weight: 500;
+}
+.box_right {
+    padding: 40px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+
